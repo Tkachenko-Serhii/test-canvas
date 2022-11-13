@@ -11,9 +11,14 @@ code {
 }
 
 #myCanvas {
+  display: block;
   margin: 20px 30px;
   border: 2px solid rgba(74, 86, 226, 1);
   border-radius: 5px;
+  
+}
+::-webkit-scrollbar {
+  display: none;
 }
 
 #button {
